@@ -1,0 +1,210 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  background-image: url('./images/Under the Lake.jpg');
+}
+.container{
+  width:60%;
+  margin:0 auto;
+  height:75vh;
+  border:none;
+  display: flex;
+  padding:10px;
+  margin-top:65px;
+  box-sizing: border-box;
+  background-color:	#DCDCDC;
+  border-radius:10px;
+}
+.container
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.container:before, .container:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.containery:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+.leftSide{
+  width:60%;
+  height:98%;
+  border-right:1px solid #228B22;
+  box-sizing: border-box;
+  padding:10px;
+}
+.bigimagesec{
+  width:90%;
+  height:70%;
+  margin:0 auto;
+  padding:10px;
+  padding-bottom:50px;
+  box-sizing:border-box;
+  border-bottom:2px solid #2F4F4F;
+}
+.bigimage{
+  width:100%;
+  height:100%;
+  border-radius:10px;
+}
+.rightSide{
+  width:40%;
+  height:98%;
+  box-sizing: border-box;
+  padding:10px;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #2F4F4F; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2F4F4F; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2F4F4F;
+}
+.musiccard{
+  display: flex;
+  width:95%;
+  border:1px solid #556B2F	;
+  padding:10px;
+  box-sizing: border-box;
+  margin-bottom:10px;
+  border-radius:10px;
+  cursor: pointer;
+}
+.imgsec{
+  flex:1;
+}
+.songdetail{
+  flex:1;
+  margin-left:10px;
+}
+.miniimage{
+  width:100%;
+  height:70%;
+  margin-top:20px;
+  border-radius:10px;
+}
+.songheading{
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+.controllersec{
+  width:90%;
+  height:7vh;
+  margin: 0 auto;
+  margin-top:20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.playerwrapper{
+  width:90%;
+  height:10px;
+  /*border-radius:10px;*/
+  border:1px solid #2F4F4F;
+  border-radius:5px;
+  margin: 0 auto;
+  margin-top:30px;
+  cursor:pointer;
+}
+.pbar{
+  width:1%;
+  background-color:#2F4F4F;
+  border-radius:5px;
+  height:10px;
+}
+.shuffle{
+  font-size:30px;
+  color:	#BA55D3	;
+  cursor: pointer;
+  flex:1;
+  margin-left:30px;
+  margin-top:5px;
+}
+.shuffle:hover{
+  color:#4B0082;
+}
+.shuffleactive{
+  color:#4B0082;
+}
+.previous{
+  /*margin-left:30px;*/
+  font-size:30px;
+  color:	#228B22;
+  cursor: pointer;
+  flex:1;
+  margin-top:5px;
+}
+.previous:hover{
+  color:#006400;
+}
+.playpause{
+  font-size: 24px;
+  cursor: pointer;
+  margin-top:7px;
+  flex:1;
+  color:	#228B22;
+}
+.playpause:hover{
+  color:#006400;
+}
+.next{
+  flex:1;
+  color:	#228B22;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top:5px;
+}
+.next:hover{
+  color:#006400;
+}
+.loop{
+  font-size:30px;
+  color:#BA55D3;
+  cursor: pointer;
+  flex:1;
+  margin-top:5px;
+  margin-right:0px;
+}
+.loop:hover{
+  color:#4B0082;
+}
+.loopactive{
+  color:#4B0082;
+}
